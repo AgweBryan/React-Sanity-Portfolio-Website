@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/React-Sanity-Portfolio-Website/static/css/main.58fb075a.css",
-    "main.js": "/React-Sanity-Portfolio-Website/static/js/main.479dede6.js",
+    "main.js": "/React-Sanity-Portfolio-Website/static/js/main.c8a0ea55.js",
     "static/media/blog-hero.jpg": "/React-Sanity-Portfolio-Website/static/media/blog-hero.3237992a445d1c8ede28.jpg",
     "index.html": "/React-Sanity-Portfolio-Website/index.html",
     "main.58fb075a.css.map": "/React-Sanity-Portfolio-Website/static/css/main.58fb075a.css.map",
-    "main.479dede6.js.map": "/React-Sanity-Portfolio-Website/static/js/main.479dede6.js.map"
+    "main.c8a0ea55.js.map": "/React-Sanity-Portfolio-Website/static/js/main.c8a0ea55.js.map"
   },
   "entrypoints": [
     "static/css/main.58fb075a.css",
-    "static/js/main.479dede6.js"
+    "static/js/main.c8a0ea55.js"
   ]
 }
