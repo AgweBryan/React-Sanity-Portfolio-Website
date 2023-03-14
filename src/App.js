@@ -13,11 +13,11 @@ function App() {
       <div className="App">
         <Navbar />
         <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/post/:slug" element={<SinglePost />} />
-          <Route path="/posts" element={<Posts />} />
-          <Route path="/projects" element={<Projects />} />
+          <Route exact path="/React-Sanity-Portfolio-Website" element={<Home />} />
+          <Route path="/React-Sanity-Portfolio-Website/about" element={<About />} />
+          <Route path="/React-Sanity-Portfolio-Website/post/:slug" element={<SinglePost />} />
+          <Route path="/React-Sanity-Portfolio-Website/posts" element={<Posts />} />
+          <Route path="/React-Sanity-Portfolio-Website/projects" element={<Projects />} />
         </Routes>
       </div>
     </Router>
