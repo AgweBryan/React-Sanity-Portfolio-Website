@@ -39,7 +39,7 @@ const Posts = () => {
           {postsData &&
             postsData.map((post, index) => (
               <article>
-                <Link to={`/post/${post.slug.current}`} key={post.slug.current}>
+                <Link to={`/React-Sanity-Portfolio-Website/post/${post.slug.current}`} key={post.slug.current}>
                   <span
                     className="block h-64 relative rounded shadow leading-snug bg-white border-l-8 border-x-green-400"
                     key={index}

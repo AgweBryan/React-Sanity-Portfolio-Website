@@ -6,7 +6,7 @@ const Navbar = () => {
       <div className="container mx-auto flex justify-between">
         <nav className="flex  items-center">
           <NavLink
-            to="/"
+            to="/React-Sanity-Portfolio-Website/"
             exact
             className={({ isActive }) =>
               `inline-flex items-center py-6 px-3 mr-4  hover:text-green-800 text-3xl font-bold font-amatic tracking-widest uppercase  ${
@@ -18,7 +18,7 @@ const Navbar = () => {
           </NavLink>
 
           <NavLink
-            to="/posts"
+            to="/React-Sanity-Portfolio-Website/posts"
             className={({ isActive }) =>
               `inline-flex items-center py-3 px-3 my-6 rounded hover:text-green-800 font-bold font-amatic tracking-widest ${
                 !isActive && "text-red-200"
@@ -28,7 +28,7 @@ const Navbar = () => {
             Blog Posts
           </NavLink>
           <NavLink
-            to="/projects"
+            to="/React-Sanity-Portfolio-Website/projects"
             className={({ isActive }) =>
               `inline-flex items-center py-3 px-3 my-6 rounded hover:text-green-800 font-bold font-amatic tracking-widest ${
                 !isActive && "text-red-200"
@@ -38,7 +38,7 @@ const Navbar = () => {
             Projects
           </NavLink>
           <NavLink
-            to="/about"
+            to="/React-Sanity-Portfolio-Website/about"
             className={({ isActive }) =>
               `inline-flex items-center py-3 px-3 my-6 rounded hover:text-green-800 font-bold font-amatic tracking-widest ${
                 !isActive && "text-red-200"
