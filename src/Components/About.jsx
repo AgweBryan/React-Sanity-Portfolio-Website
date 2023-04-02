@@ -1,15 +1,7 @@
-import { unstable_requirePropFactory } from "@mui/utils";
 import React, { useEffect, useState } from "react";
 import client from "../client";
 import hero from "../images/blog-hero.jpg";
 import BlockContent from "@sanity/block-content-to-react";
-import imageUrlBuilder from "@sanity/image-url";
-
-const builder = imageUrlBuilder(client);
-
-function urlFor(source) {
-  return builder.image(source);
-}
 
 const About = () => {
   const [author, setAuthor] = useState({});

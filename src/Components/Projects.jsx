@@ -43,7 +43,12 @@ const Projects = () => {
                 className="relative rounded-lg shadow-xl bg-white p-16"
               >
                 <h3 className="text-gray-800 text-3xl font-bold mb-2 hover:text-red-700">
-                  <a href={project.link} alt={project.title} target="_blank">
+                  <a
+                    href={project.link}
+                    alt={project.title}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     {project.title}
                   </a>
                 </h3>
@@ -66,6 +71,7 @@ const Projects = () => {
                   <a
                     href={project.link}
                     target="_blank"
+                    rel="noreferrer"
                     className="text-red-500 text-xl font-bold hover:underline hover:text-red-400"
                   >
                     View The Project{" "}
